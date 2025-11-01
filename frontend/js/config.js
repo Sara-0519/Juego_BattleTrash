@@ -1,8 +1,8 @@
 ﻿const CONFIG = {
     API_URL: 
         window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
-        ? 'http://localhost:3000'
-        : 'https://juego-battletrashintento.onrender.com',  
+        ? 'http://localhost:3000/api'
+        : 'https://juego-battletrashintento.onrender.com/api',  
     POINTS: {
         CORRECT: 100,
         INCORRECT: -20
